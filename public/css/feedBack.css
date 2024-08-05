@@ -1,0 +1,132 @@
+.feedBackContainer {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2969c2;
+    margin-top: 0;
+}
+
+select,
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#questionForm {
+    display: none;
+}
+
+#feedbackTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#feedbackTable th,
+#feedbackTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#feedbackTable label {
+    margin-right: 10px;
+}
+
+#feedbackTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#feedbackTable tr:hover {
+    background-color: #e0e0e0;
+}
+.snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+}
+
+.snackbar.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+/* Success message */
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Message Container */
+#messageContainer {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Success Message */
+.success-message {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* No Data Message */
+.no-data-message {
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

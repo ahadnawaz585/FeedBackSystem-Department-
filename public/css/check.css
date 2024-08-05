@@ -1,0 +1,75 @@
+/* Form container styles */
+.checkFormContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+
+.checkFormContainer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+
+.checkFormContainer .formRow {
+    margin-bottom: 20px;
+}
+
+.checkFormContainer .formRow label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: left;
+}
+
+.checkFormContainer .formRow input[type="email"],
+.checkFormContainer .formRow input[type="text"],
+.checkFormContainer .formRow input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.checkFormContainer form {
+    text-align: center;
+}
+
+.checkFormContainer form {
+    text-align: center;
+}
+
+
+.checkFormContainer form .discard-button {
+    display: block;
+    margin-bottom: 10px;
+    color: #dc3545;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.checkFormContainer form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.checkFormContainer form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+

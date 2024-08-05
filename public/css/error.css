@@ -1,0 +1,37 @@
+.errorContainer {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    color: red;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.errorContainer__heading {
+    margin-top: 0;
+}
+
+.errorContainer__message {
+    margin-bottom: 20px;
+}
+
+.errorContainer__button,
+.errorContainer__link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    background-color: #2564c3;
+    transition: background-color 0.3s ease;
+}
+
+.errorContainer__button:hover,
+.errorContainer__link:hover {
+    background-color: #1e4a8f;
+}

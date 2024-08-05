@@ -1,0 +1,90 @@
+.report{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}   
+
+h1 {
+    color: #2564c3;
+    text-align: center;
+}
+
+label {
+    color: #2564c3;
+    font-weight: bold;
+}
+
+#departmentSelect {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#reportContainer {
+    margin-top: 20px;
+}
+
+#feedbackTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#feedbackTable th,
+#feedbackTable td {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#feedbackTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #2564c3;
+}
+
+#feedbackTable tr:hover {
+    background-color: #e0e0e0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+
+
+#downloadCSVButton,
+#downloadPDFButton {
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1 px solid #4CAF50;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#downloadCSVButton:hover,
+#downloadPDFButton:hover {
+    background-color: #45a049;
+}
+
+#downloadCSVButton:focus,
+#downloadPDFButton:focus {
+    outline: none;
+}
+
+
+
